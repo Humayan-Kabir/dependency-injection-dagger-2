@@ -14,6 +14,8 @@ interface ActivityComponent {
 
     fun screensNavigator(): ScreensNavigator
 
+    fun application(): AppCompatActivity
+
     fun activity(): AppCompatActivity
 
     fun layoutInflater(): LayoutInflater
